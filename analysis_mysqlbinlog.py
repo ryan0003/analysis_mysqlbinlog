@@ -1163,7 +1163,7 @@ if __name__ == '__main__':
         print 'Usage : \n./analysis_mysqlbinlg.py <mysql-bin-log>'
         exit()
 
-    CheckEvent(filename=mysql_binlog,start_pos=123)
+    CheckEvent(filename=mysql_binlog,start_pos=0)
 
 
     '''
